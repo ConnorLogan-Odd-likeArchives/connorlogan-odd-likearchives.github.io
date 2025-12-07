@@ -1,0 +1,24 @@
+<html>
+<body>
+<div class="container">
+  <p>Awards</p>
+  <div *ngFor = "let awards of awardList">
+    <div *ngIf="awards.id > 0" >
+      {{awards.name}}
+      <br>
+      {{awards.desc}}
+    </div>
+    <div *ngIf="awards.id == 1">
+      <figure>
+        <img ngSrc="../../../public/HonourRoll.png" width="256" height="144">
+      </figure>
+    </div>
+    <div *ngIf="awards.id == 2">
+      <figure>
+        <img ngSrc="../../../public/GradAward.png" width="250" height="250">
+      </figure>
+    </div>
+  </div>
+</div>
+</body>
+</html>
