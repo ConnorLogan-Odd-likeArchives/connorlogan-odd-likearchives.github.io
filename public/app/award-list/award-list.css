@@ -1,0 +1,17 @@
+.container{
+  text-align: center;
+  font-family: Arial;
+  margin: 40px 40px 40px 40px;
+  background-color: #329632;
+}
+
+p{
+  font-family: "Arial Black";
+  text-align: center;
+}
+
+body{
+  background-color: darkgreen;
+  background-image: radial-gradient(green, darkgreen);
+  padding-bottom: 50px;
+}

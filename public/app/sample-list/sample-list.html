@@ -1,0 +1,57 @@
+<body>
+<div class="container">
+  <p>Samples of early and later work</p>
+  <div *ngFor = "let samples of sampleList">
+    <div *ngIf="samples.id > 0" >
+    {{samples.name}}
+      <br>
+    {{samples.desc}}
+  </div>
+    <div *ngIf="samples.id == 1">
+      <figure>
+        <img ngSrc="../../../public/EarlySampleProject.png" width="319" height="140">
+      </figure>
+    </div>
+    <div *ngIf="samples.id == 2">
+      <figure>
+        <img ngSrc="../../../public/LaterSampleProject.png" width="209" height="147">
+      </figure>
+    </div>
+</div>
+</div>
+<div class="container">
+  <p>Top samples of best work</p>
+<div *ngFor = "let samples of sampleBestList">
+  <div *ngIf="samples.id > 0" >
+    {{samples.id}}
+    <br>
+    {{samples.name}}
+    <br>
+    {{samples.desc}}
+  </div>
+  <div *ngIf="samples.id == 1">
+    <figure>
+      <img ngSrc="../../../public/EarlySampleProject.png" width="319" height="140">
+    </figure>
+  </div>
+  <div *ngIf="samples.id == 2">
+    <figure>
+      <img ngSrc="../../../public/LaterSampleProject.png" width="209" height="147">
+    </figure>
+  </div>
+</div>
+</div>
+<div class="container">
+  <p>Samples of skills</p>
+  <div *ngFor = "let samples of skillList">
+    <div *ngIf="samples.id > 0" >
+      {{samples.id}}
+      <br>
+      {{samples.name}}
+      <br>
+      {{samples.desc}}
+    </div>
+  </div>
+</div>
+<footer>Original projects from St. Clair College</footer>
+</body>

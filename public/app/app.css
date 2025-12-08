@@ -1,0 +1,25 @@
+h1{
+  font-family: Calibri;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+h2{
+  font-family: Calibri;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+.nav-bar{
+  text-align: center;
+  font-family: Calibri;
+}
+a{
+  color: white;
+  background-color: darkgreen;
+  padding:0em 1em;
+}
+body{
+  background-color: darkgreen;
+  background-image: radial-gradient(green, darkgreen);
+  padding-top: 20px;
+}
+

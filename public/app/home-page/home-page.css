@@ -1,0 +1,30 @@
+p{
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-style: italic;
+  font-size: 10pt;
+}
+
+figure{
+  text-align: center;
+}
+
+footer{
+  clear: both;
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding:10px;
+}
+
+h2{
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+body{
+  background-color: darkgreen;
+  background-image: radial-gradient(green, darkgreen);
+  padding-bottom: 300px;
+}
